@@ -6,6 +6,6 @@ output "arn" {
   value = aws_s3_bucket.bucket.arn
 }
 
-output "endpoint" {
+output "bucket" {
   value = aws_s3_bucket.bucket.bucket
 }
